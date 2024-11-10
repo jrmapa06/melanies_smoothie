@@ -55,6 +55,6 @@ if ingredients_list:
     if time_to_insert:
         session.sql(my_insert_stmt).collect()
         st.success('Your Smoothie is ordered!',icon="🍌")
-import requests
-fruityvice_response = requests.get("https://melaniessmoothie-e6grm2mgv6fenkhoaheuyt.streamlit.app")
-st.text(fruityvice_response)
+#import requests
+#fruityvice_response = requests.get("https://melaniessmoothie-e6grm2mgv6fenkhoaheuyt.streamlit.app")
+#st.text(fruityvice_response)
