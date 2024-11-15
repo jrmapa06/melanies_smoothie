@@ -8,7 +8,7 @@ st.title(":cup_with_straw: Customize Your Smoothie :balloon:")
 st.write("Choose the fruits you want in your custom Smoothie!")
 
 name_on_order =st.text_input('Enter your name')
-st.write('the name on your smoothie will be:',name_on_order)
+st.write('the name on your smoothie will be:',name_on_order) 
 #option = st.selectbox(
 #    "what is your favorite fruit?",('Banana','Strawberries','Peaches'))
 #st.write('Your favorite fruit is:',option)
