@@ -37,6 +37,4 @@ if ingredient_list:
         
         st.success('your smoothies is ordered')
         
-cnx = st.connection("snowflake")
-session = cnx.session()
 
